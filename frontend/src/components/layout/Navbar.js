@@ -16,8 +16,9 @@ function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbar_logo}>
-        <img src={Logo} alt="Shop Pet" />
-        <h2>Shop Pet</h2>
+        <img src={Logo} alt="PetMatch" />
+        <h2 style={{ lineHeight: 2, color: '#333' }}><strong>[PetMatch]</strong></h2>
+        <h5 style={{ lineHeight: 1, marginLeft: '10px' }}><i>by icoma.com</i></h5>
       </div>
       <ul>
         <li>
